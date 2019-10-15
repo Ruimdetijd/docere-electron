@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./build/renderer",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "es6"
+  },
+  "exclude": [ "node_modules" ],
+  "files": [ "src/renderer/index.tsx", "src/types.d.ts" ]
+}

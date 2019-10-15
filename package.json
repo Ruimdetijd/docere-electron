@@ -1,0 +1,36 @@
+{
+  "name": "docere-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main/index.js",
+  "scripts": {
+		"build": "tsc",
+		"build:main": "tsc --build tsconfig.main.json",
+    "prestart": "tsc --build tsconfig.main.json",
+    "start": "electron . --disable-gpu",
+    "watch": "tsc -w",
+    "watch:main": "tsc --build tsconfig.main.json -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "electron": "6.0.10",
+    "ts-loader": "^6.2.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.20",
+    "@emotion/styled": "^10.0.17",
+    "chokidar": "^3.2.1",
+    "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}

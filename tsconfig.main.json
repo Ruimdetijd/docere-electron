@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "importHelpers": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./build/main",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "es6"
+  },
+  "exclude": [ "node_modules" ],
+  "files": [ "src/main/index.ts", "src/types.d.ts" ]
+}
