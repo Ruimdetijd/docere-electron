@@ -17,7 +17,7 @@
     "@types/fs-extra": "^8.0.0",
     "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
-    "electron": "6.0.10",
+    "electron": "11.5.0",
     "ts-loader": "^6.2.0",
     "tslib": "^1.10.0",
     "typescript": "^3.6.3",
